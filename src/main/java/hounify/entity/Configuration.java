@@ -12,7 +12,7 @@ import java.sql.Timestamp;
 @Table(name = "hg_configuration")
 public class Configuration {
 	/**
-	 * 主键id自增长
+	  * 主键id自增长
 	 */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) 
